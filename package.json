@@ -2,6 +2,9 @@
   "name": "fe-assessesment",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "6.11.1"
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -12,6 +15,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@angular/cli": "^15.0.4",
+    "@angular/compiler-cli": "^15.0.4",
     "axios": "^1.2.1",
     "pinia": "^2.0.28",
     "vue": "^3.2.45",
